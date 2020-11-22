@@ -104,7 +104,7 @@ public class Generator {
 	}
 
 	/**
-	 * <p>Discription:[生成映射文件和实体类]</p>
+	 *  Discription:[生成映射文件和实体类]
 	 * Created on 2015年2月4日
 	 * @param tableName 要声称映射文件和实体类的表名称
 	 * @param tableDescAndCat 表描述

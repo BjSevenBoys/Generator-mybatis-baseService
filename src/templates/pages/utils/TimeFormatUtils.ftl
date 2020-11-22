@@ -7,9 +7,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
  /** 
- * <p>Description: [时间转换工具类]</p>
+ *  Description: [时间转换工具类]
  * Created on ${date}
- * @author  <a href="mailto: ${email}">${author}</a>
+ * @author 7Stars
  * @version 1.0 
  * Copyright (c) 2018 乐享商城  
  */

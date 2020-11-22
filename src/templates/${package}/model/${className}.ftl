@@ -2,13 +2,13 @@ package ${package}.model;
 
 import java.io.Serializable;
 /** 
- * <p>Description: [${table.tableDesc}model]</p>
+ *  Description: [${table.tableDesc}model]
  * Created on ${date}
- * @author  <a href="mailto: ${email}">${author}</a>
+ * @author 7Stars
  * @version 1.0 
  * Copyright (c) 2016 乐享商城  
  */
-public class ${className}Model  implements Serializable {
+public class ${className}  implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
@@ -22,7 +22,7 @@ public class ${className}Model  implements Serializable {
 	// setter and getter
 <#list table.columns as column>
 	/**
-	* <p>Discription:[${column.label}]</p>
+	*  Discription:[${column.label}]
 	* Created on ${date}
 	* @return ${column.type}
     * @author:${author}
@@ -31,7 +31,7 @@ public class ${className}Model  implements Serializable {
 		return ${column.name};
 	}
 	/**
-	* <p>Discription:[${column.label}]</p>
+	*  Discription:[${column.label}]
 	* Created on ${date}
 	* @author:${author}
 	*/

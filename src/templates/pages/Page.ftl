@@ -2,9 +2,9 @@ package ${package}.model;
 
 import java.io.Serializable;
 /** 
- * <p>Description: [分页model]</p>
+ *  Description: [分页model]
  * Created on ${date}
- * @author  <a href="mailto: ${email}">${author}</a>
+ * @author 7Stars
  * @version 1.0 
  * Copyright (c) 2018 乐享商城  
  */

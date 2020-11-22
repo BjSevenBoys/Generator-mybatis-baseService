@@ -4,7 +4,7 @@
 
 <mapper namespace="${package}.dao.${className}Dao">
 	<!-- 返回值映射map -->
-	<resultMap id="${classNameLower}Mapper" type="${package}.model.${className}Model">
+	<resultMap id="${classNameLower}Mapper" type="${package}.model.${className}">
 		<#list table.columns as column>
 			<result property="${column.name}" column="${column.dbName}" />
 		</#list>
@@ -103,7 +103,7 @@
 	</sql>
 	
 	<!-- 新增 -->
-	<insert id="add${className}" parameterType="${package}.model.${className}Model">
+	<insert id="add${className}" parameterType="${package}.model.${className}">
 		insert into ${table.dbName}(
 			<include refid="sql_add_columns"/>
 		)values(
@@ -111,7 +111,7 @@
 		)
 	</insert>
 	<!-- 编辑 -->
-	<update id="update${className}" parameterType="${package}.model.${className}Model">
+	<update id="update${className}" parameterType="${package}.model.${className}">
 		update ${table.dbName} record 
 			<set>
 			<#list table.columns as column>

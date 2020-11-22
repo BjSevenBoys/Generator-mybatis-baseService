@@ -1,14 +1,14 @@
 package ${package}.dao;
 
-import ${package}.model.${className}Model;
+import ${package}.model.${className};
 import ${package}.model.Page;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 /** 
- * <p>Description: [${table.tableDesc}dao]</p>
+ *  Description: [${table.tableDesc}dao]
  * Created on ${date}
- * @author  <a href="mailto: ${email}">${author}</a>
+ * @author 7Stars
  * @version 1.0 
  * Copyright (c) 2016 乐享商城  
  */
@@ -17,34 +17,34 @@ public interface ${className}Dao{
 	/**
 	* 分页查询固定参数
 	*/
-	List<${className}Model> queryPage${className}(@Param("page")Page page, @Param("entity")${className}Model entity, @Param("queryFields")List queryFields);
+	List<${className}> queryPage${className}(@Param("page")Page page, @Param("entity")${className} entity, @Param("queryFields")List queryFields);
 	
 	
 	/**
 	* 查询固定参数
 	*/
-	List<${className}Model> queryList${className}(@Param("entity")${className}Model entity, @Param("queryFields")List queryFields);
+	List<${className}> queryList${className}(@Param("entity")${className} entity, @Param("queryFields")List queryFields);
 	
 	
 	/**
 	* 查询总数量
 	*/
-	Long queryCount${className}(@Param("entity")${className}Model entity);
+	Long queryCount${className}(@Param("entity")${className} entity);
 	
 	/**
 	* 查询单个实体
 	*/
-	${className}Model query${className}ById(@Param("id")String id,  @Param("queryFields")List queryFields);
+	${className} query${className}ById(@Param("id")String id,  @Param("queryFields")List queryFields);
 	
 	/**
 	* <!-- 新增 -->
 	*/
-	int add${className}(${className}Model entity);
+	int add${className}(${className} entity);
 	
 	/**
 	* <!-- 修改 -->
 	*/
-	int update${className}(${className}Model entity);
+	int update${className}(${className} entity);
 	
 	/**
 	* <!-- 批量删除 -->

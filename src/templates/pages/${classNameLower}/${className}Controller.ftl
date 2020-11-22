@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import ${package}.dto.${className}DTO;
-import ${package}.service.${className}Service;
+import ${package}.service.I${className}Service;
 import com.camelot.openplatform.common.Pager;
 import com.camelot.openplatform.common.DataGrid;
 import com.camelot.openplatform.common.ExecuteResult;
@@ -23,20 +23,20 @@ import com.camelot.openplatform.common.ExecuteResult;
 /** 
  * Description: [描述该类概要功能介绍]
  * Created on ${date}
- * @author  <a href="mailto: ${email}">${author}</a>
+ * @author 7Stars
  * @version 1.0 
- * Copyright (c) ${year} 乐享商城
+ * Copyright (c) ${year} 7Stars
  */
 @Controller
 @RequestMapping("/sellcenter/${classNameLower}")
 public class ${className}Controller {
 	private Logger logger = Logger.getLogger(this.getClass());
 	@Resource
-	private ${className}Service ${classNameLower}Service;
+	private I${className}Service ${classNameLower}Service;
 	
 	
 	/**
-	 * <p>Discription:[分页查询XXXX集合数据]</p>
+	 *  Discription:[分页查询XXXX集合数据]
 	 * Created on ${date}
 	 * @param 
 	 * @return
@@ -66,7 +66,7 @@ public class ${className}Controller {
 	
 	
 	/**
-	 * <p>Discription:[跳转到XXX新增页面]</p>
+	 *  Discription:[跳转到XXX新增页面]
 	 * Created on ${date}
 	 * @param 
 	 * @return
@@ -80,7 +80,7 @@ public class ${className}Controller {
 	
 	
 	/**
-	 * <p>Discription:[新增XXXX]</p>
+	 *  Discription:[新增XXXX]
 	 * Created on ${date}
 	 * @param 
 	 * @return
@@ -100,7 +100,7 @@ public class ${className}Controller {
 	}
 	
 	/**
-	 * <p>Discription:[跳转到XXX编辑页面]</p>
+	 *  Discription:[跳转到XXX编辑页面]
 	 * Created on ${date}
 	 * @param 
 	 * @return
@@ -123,7 +123,7 @@ public class ${className}Controller {
 	}
 	
 	/**
-	 * <p>Discription:[新增XXXX]</p>
+	 *  Discription:[新增XXXX]
 	 * Created on ${date}
 	 * @param 
 	 * @return
@@ -144,7 +144,7 @@ public class ${className}Controller {
 	
 	
 	/**
-	 * <p>Discription:[删除XXXX]</p>
+	 *  Discription:[删除XXXX]
 	 * Created on ${date}
 	 * @param ids需要删除的数据id集合
 	 * @return

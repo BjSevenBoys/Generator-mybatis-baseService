@@ -2,9 +2,9 @@ package ${package}.utils;
 
 import java.io.Serializable;
  /** 
- * <p>Description: [返回json模板]</p>
+ *  Description: [返回json模板]
  * Created on ${date}
- * @author  <a href="mailto: ${email}">${author}</a>
+ * @author 7Stars
  * @version 1.0 
  * Copyright (c) 2018 乐享商城  
  */

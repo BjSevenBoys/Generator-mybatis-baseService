@@ -3,9 +3,9 @@ package ${package}.utils;
 import java.util.List;
 
  /** 
- * <p>Description: [参数验证是否为空工具类]</p>
+ *  Description: [参数验证是否为空工具类]
  * Created on ${date}
- * @author  <a href="mailto: ${email}">${author}</a>
+ * @author 7Stars
  * @version 1.0 
  * Copyright (c) 2016 乐享商城  
  */
