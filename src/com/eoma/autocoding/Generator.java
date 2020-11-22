@@ -3,6 +3,7 @@ package com.eoma.autocoding;
 import com.eoma.autocoding.common.Column;
 import com.eoma.autocoding.common.Table;
 import com.eoma.autocoding.utils.CamelCaseUtils;
+import com.eoma.autocoding.utils.DelFiles;
 import com.eoma.autocoding.utils.FileHelper;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -169,8 +170,16 @@ public class Generator {
 		}
 	}
 
+	private void delFiles(){
+		// 删除目录以及目录下的文件
+		String outRoot = properties.getProperty("outRoot")+"\\com";
+		DelFiles.delFiles(new File(outRoot));
+	}
 	public static void main(String[] args) throws Exception {
 		Generator g = new Generator();
+		// 删除目录以及目录下的文件
+		g.delFiles();
+
 		Map<String, String> map = new HashMap<String, String>();
 		map.put("test","用户表");
 

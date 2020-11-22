@@ -2,8 +2,7 @@ package ${package}.service;
 
 import java.util.List;
 
-import ${package}.model.Page;
-import ${package}.model.${className};
+
 
 /**
  * Description: [${table.tableDesc}服务]
@@ -12,19 +11,16 @@ import ${package}.model.${className};
  * @version 1.0 
  * Copyright (c) ${year} 7Stars
  */
-public interface I${className}Service {
+public interface IBaseService<T> {
 
 
-     public	int  findById (${className} ${classNameLower});
+     public	T  findById (String id);
 
+     public	T  save (T t);
 
+     public	int  updateById (T t);
 
-
-     public	int  save (${className} ${classNameLower});
-
-     public	int  updateById (${className} ${classNameLower});
-
-     public	int  delete (${className} ${classNameLower});
+     public	int  deleteById (String id);
 
 
 }

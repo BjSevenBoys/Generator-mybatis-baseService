@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Created on ${date}
  * @author 7Stars
  * @version 1.0 
- * Copyright (c) 2016 乐享商城  
+ * Copyright (c) Copyright (c) ${year} 7Stars
  */
 public class ${className}  implements Serializable {
 

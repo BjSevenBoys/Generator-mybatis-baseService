@@ -1,13 +1,13 @@
-package ${package}.utils;
+package destCode.com.utils;
 
 import java.util.List;
 
  /** 
  *  Description: [参数验证是否为空工具类]
- * Created on ${date}
+ * Created on 2020年11月22日
  * @author 7Stars
  * @version 1.0 
- * Copyright (c) 2016 乐享商城  
+ * Copyright (c) Copyright (c) 2020年 7Stars
  */
 public class ParamValidateUtils {
 

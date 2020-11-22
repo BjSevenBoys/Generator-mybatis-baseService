@@ -6,14 +6,22 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 /** 
- *  Description: [${table.tableDesc}dao]
+ * Description: [${table.tableDesc}dao]
  * Created on ${date}
  * @author 7Stars
  * @version 1.0 
- * Copyright (c) 2016 乐享商城  
+ * Copyright (c) Copyright (c) ${year} 7Stars
  */
-public interface ${className}Dao{
-	
+public interface IBaseDao<T>{
+
+	T findById (@Param("id") String id);
+
+	T save (T t);
+
+	int updateById (T t);
+
+	int deleteById (@Param("id") String id);
+
 	/**
 	* 分页查询固定参数
 	*/

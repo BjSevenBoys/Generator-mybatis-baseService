@@ -1,9 +1,9 @@
-package ${package}.utils;
+package destCode.com.utils;
 
 import java.io.Serializable;
  /** 
  *  Description: [返回json模板]
- * Created on ${date}
+ * Created on 2020年11月22日
  * @author 7Stars
  * @version 1.0 
  * Copyright (c) 2018 乐享商城  

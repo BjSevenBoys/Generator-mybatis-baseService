@@ -1,4 +1,4 @@
-package ${package}.utils;
+package destCode.com.utils;
 
 import java.sql.Timestamp;
 import java.text.DateFormat;
@@ -8,7 +8,7 @@ import java.util.Date;
 
  /** 
  *  Description: [时间转换工具类]
- * Created on ${date}
+ * Created on 2020年11月22日
  * @author 7Stars
  * @version 1.0 
  * Copyright (c) 2018 乐享商城  
